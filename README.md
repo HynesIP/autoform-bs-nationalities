@@ -25,7 +25,7 @@ Specify "bootstrap-nationalities-field" in autoform.
 Coffeescript
 
 ```javascript
-'country':
+'nationality':
 type: String
 label: 'Nationality'
 autoform:
@@ -35,7 +35,7 @@ type: 'bootstrap-nationalities-field'
 javascript
 ```javascript
 ...
-'country': {
+'nationality': {
 type: String,
 label: 'Nationality',
 autoform: {
@@ -43,4 +43,8 @@ type: 'bootstrap-nationalities-field'
 }
 }
 ...
+```
+Optional: add this package only if you have a field for called country in your collection.
+```cmd
+$ meteor add philip100:autoform-bs-country-field
 ```
